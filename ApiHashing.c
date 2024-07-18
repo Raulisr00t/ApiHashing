@@ -159,7 +159,7 @@ int main() {
 		return -1;
 	}
 	// calling MessageBoxA
-	pMessageBoxA(NULL, "Building Malware With Maldev", "Wow", MB_OK | MB_ICONEXCLAMATION);
+	pMessageBoxA(NULL, "Api Hashing Example", "Raulisr00t", MB_OK | MB_ICONEXCLAMATION);
 
 	printf("[#] Press <Enter> To Quit ... ");
 	getchar();
