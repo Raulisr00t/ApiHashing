@@ -139,7 +139,7 @@ typedef int (WINAPI* fnMessageBoxA)(
 
 int main() {
 	
-	// load user32.dll to the current process, so that GetModuleHandleH sill work
+	// load user32.dll to the current process, so that GetModuleHandleH will work
 	if (LoadLibraryA("USER32.DLL") == NULL) {
 		printf("[!] LoadLibraryA Failed With Error : %d \n", GetLastError());
 		return 0;
